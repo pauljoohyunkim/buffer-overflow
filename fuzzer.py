@@ -2,6 +2,7 @@
 
 
 #THIS IS A VERY CRUDE FUZZER!
+#FOR EVEN SIMPLER (and contains only the necessary) CODE, see fuzzer_simpler.py
 
 
 import socket
