@@ -1,16 +1,13 @@
 #!/bin/python3
-
-
 #This is a fuzzer containing only the necessary bits.
-
+#Usage:
+#python3 fuzzer_simpler.py [RHOST] [RPORT] [Max Byte]
+#./fuzzer_simpler.py [RHOST] [RPORT] [Max Byte]
 
 import socket
 import time
 import sys
 
-#Usage:
-#python3 fuzzer_simpler.py [RHOST] [RPORT] [Max Byte]
-#./fuzzer_simpler.py [RHOST] [RPORT] [Max Byte]
 
 rhost = sys.argv[1]
 rport = int(sys.argv[2])
